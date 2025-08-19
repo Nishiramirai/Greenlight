@@ -2,6 +2,13 @@
 JSON API for retrieving and managing information about movies. Based on Alex Edwards [Let's Go Further](https://lets-go-further.alexedwards.net/) book.
 
 
+## Technology Stack
+* **Go** as the primary programming language.
+* **PostgreSQL** as the relational database.
+* **Chi** as the HTTP router.
+
+
+## API Endpoints
 | Method | URL Pattern | Action |
 | :--- | :--- | :--- |
 | GET | `/v1/healthcheck` | Show application health and version information |
@@ -16,3 +23,6 @@ JSON API for retrieving and managing information about movies. Based on Alex Edw
 | POST | `/v1/tokens/authentication` | Generate a new authentication token |
 | POST | `/v1/tokens/password-reset` | Generate a new password-reset token |
 | GET | `/debug/vars` | Display application metrics |
+
+
+

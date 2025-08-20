@@ -5,7 +5,7 @@ JSON API for retrieving and managing information about movies. Based on Alex Edw
 ## Technology Stack
 * **Go** as the primary programming language.
 * **PostgreSQL** as the relational database.
-* **Chi** as the HTTP router.
+* **HttpRouter** as the HTTP router.
 
 
 ## API Endpoints
